@@ -2,6 +2,8 @@
 require File.expand_path('../lib/sass/twitter/bootstrap/version', __FILE__)
 
 Gem::Specification.new do |gem|
+  gem.name          = "sass-twitter-bootstrap"
+  gem.version       = Sass::Twitter::Bootstrap::VERSION
   gem.authors       = ["Wade Tandy"]
   gem.email         = ["wade@wadetandy.com"]
   gem.description   = %q{Gemification of the Twitter Bootstrap}
@@ -11,9 +13,7 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "sass-twitter-bootstrap"
   gem.require_paths = ["lib"]
-  gem.version       = Sass::Twitter::Bootstrap::VERSION
 
   gem.add_dependency 'sass'
 end
