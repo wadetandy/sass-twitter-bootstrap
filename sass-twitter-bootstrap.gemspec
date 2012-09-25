@@ -10,10 +10,9 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Create a Rails 2 and 3 compatible gem for John Long's Sass conversion of the Twitter Bootstrap}
   gem.homepage      = "http://github.com/wadetandy/sass-twitter-bootstrap"
 
-  gem.files         = `git ls-files`.split($\)
-  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.require_paths = ["lib"]
+  gem.files         = Dir["{lib,vendor}/**/*"]
+  gem.require_paths = ['lib']
 
   gem.add_dependency 'sass'
+  gem.add_dependency 'railties'
 end
