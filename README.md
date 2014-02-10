@@ -1,12 +1,12 @@
-<a href="http://getbootstrap.com">
-  <img src="http://twitter.github.com/bootstrap/assets/img/bootstrap-docs-readme.png" width="100px">
+<a href="http://getbootstrap.com/2.3.2/">
+  <img src="http://blog.getbootstrap.com/public/ico/apple-touch-icon-144-precomposed.png" width="100px">
 </a>
 
-# [Bootstrap v2.3.0](http://twitter.github.com/bootstrap) [![Build Status](https://secure.travis-ci.org/twitter/bootstrap.png)](http://travis-ci.org/twitter/bootstrap)
+# [Bootstrap v2.3.0](http://getbootstrap.com/2.3.2/) [![Build Status](https://secure.travis-ci.org/twbs/bootstrap.png)](http://travis-ci.org/twbs/bootstrap)
 
 Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development, created and maintained by [Mark Otto](http://twitter.com/mdo) and [Jacob Thornton](http://twitter.com/fat).
 
-To get started, checkout [http://getbootstrap.com](http://getbootstrap.com)!
+To get started, checkout [getbootstrap.com](http://getbootstrap.com) (or [getbootstrap.com/2.3.2/](http://getbootstrap.com/2.3.2/)) !
 
 
 
@@ -14,9 +14,9 @@ To get started, checkout [http://getbootstrap.com](http://getbootstrap.com)!
 
 Three quick start options are available:
 
-* [Download the latest release](https://github.com/twitter/bootstrap/zipball/master).
-* Clone the repo: `git clone git://github.com/twitter/bootstrap.git`.
-* Install with Twitter's [Bower](http://twitter.github.com/bower): `bower install bootstrap`.
+* [Download the latest release](https://github.com/twbs/bootstrap/zipball/master).
+* Clone the repo: `git clone git://github.com/twbs/bootstrap.git`.
+* Install with [Bower](https://github.com/bower/bower): `bower install bootstrap`.
 
 
 
@@ -62,7 +62,7 @@ For more information on SemVer, please visit [http://semver.org/](http://semver.
 
 ## Bug tracker
 
-Have a bug or a feature request? [Please open a new issue](https://github.com/twitter/bootstrap/issues). Before opening any issue, please search for existing issues and read the [Issue Guidelines](https://github.com/necolas/issue-guidelines), written by [Nicolas Gallagher](https://github.com/necolas/).
+Have a bug or a feature request? [Please open a new issue](https://github.com/twbs/bootstrap/issues). Before opening any issue, please search for existing issues and read the [Issue Guidelines](https://github.com/necolas/issue-guidelines), written by [Nicolas Gallagher](https://github.com/necolas/).
 
 
 
